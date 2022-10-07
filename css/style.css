@@ -5,13 +5,9 @@
 
 
 body {
-    display: flex;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to top, #ADAF5B, #1E4C6E);
-
-    align-items: center;
-    justify-content: center;
+    background-image: linear-gradient(to top, #646333, #1E4C6E);
 
 }
 
@@ -22,6 +18,7 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    height: 100vh;
 
 
 }
@@ -31,7 +28,7 @@ body {
     margin: 0;
     padding: 0;
     width: 400px;
-    height: 980px;
+    height: 100vh;
     margin: 0px;
     align-items: center;
     justify-content: center;
@@ -90,7 +87,7 @@ body {
 
 #mid-div{
     background-color: #FFFFFF;
-    height: 280px;
+    height: 320px;
     margin: 0;
     padding: 0;
     box-shadow: 0px 3px 2px 1px rgba(20, 20, 20, .1);
@@ -99,11 +96,14 @@ body {
 }
 
 #bot-div{
+    display: flex;
     background-color: #F9FAFB;
-    height: 350px;
+    height: 200px;
     margin-top: 3px;
     padding: 0;
     width: 800;
+    align-items: baseline;
+    justify-content: center     ;
 }
 
 #form-title{
@@ -134,3 +134,22 @@ fieldset{
     width: fit-content;
 }
 
+#submit{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 1rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: 0;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    height: 20px;
+}
+input:invalid{
+    border:1px solid red;
+}
