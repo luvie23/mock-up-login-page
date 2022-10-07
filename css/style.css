@@ -145,6 +145,11 @@ fieldset{
     border: 0;
 }
 
+#submit:hover{
+    background-color: rgba(89, 109, 72,0.8);
+    cursor: pointer;
+}
+
 input{
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.33);
@@ -152,4 +157,8 @@ input{
 }
 input:invalid{
     border:1px solid red;
+}
+
+a{
+    color:rgba(89, 109, 72,0.8);
 }
